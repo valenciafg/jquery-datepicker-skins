@@ -1,0 +1,131 @@
+.experiensa {
+	font-size: 90%;
+}
+
+.experiensa .ui-widget {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	background: #FFFFFF;
+	/*background: #2e3641;*/
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.experiensa .ui-datepicker.ui-widget.ui-widget-content.ui-corner-all{
+	border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 12px;
+}
+
+.experiensa .ui-datepicker {
+	padding: 0;
+	/*border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 12px;*/
+}
+
+.experiensa .ui-datepicker-header {
+	border: none;
+	background: transparent;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.experiensa .ui-datepicker-header .ui-state-hover {
+	background: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.experiensa .ui-datepicker .ui-datepicker-title {
+	margin-top: .4em;
+	margin-bottom: .3em;
+	/*color: #e9f0f4;*/
+	color: #000;
+	font-weight: bold;
+}
+
+.experiensa .ui-datepicker .ui-datepicker-prev-hover,
+.experiensa .ui-datepicker .ui-datepicker-next-hover,
+.experiensa .ui-datepicker .ui-datepicker-next,
+.experiensa .ui-datepicker .ui-datepicker-prev {
+	top: .9em;
+	border:none;
+}
+
+.experiensa .ui-datepicker .ui-datepicker-prev-hover {
+	left: 2px;
+}
+
+.experiensa .ui-datepicker .ui-datepicker-next-hover {
+	right: 2px;
+}
+
+.experiensa .ui-datepicker .ui-datepicker-next span,
+.experiensa .ui-datepicker .ui-datepicker-prev span {
+	background-image: url(images/ui-icons_222222_256x240.png);
+	background-position: -32px 0;
+	margin-top: 0;
+	top: 0;
+	font-weight: normal;
+}
+
+.experiensa .ui-datepicker .ui-datepicker-prev span {
+	background-position: -96px 0;
+}
+
+.experiensa .ui-datepicker table {
+	margin: 0;
+}
+
+.experiensa .ui-datepicker th {
+	padding: 1em 0;
+	color: #909090;
+	/*color: #ccc;*/
+	font-size: 13px;
+	font-weight: bold;
+	/*font-weight: normal;*/
+	border: none;
+	border-top: 1px solid #3a414d;
+	border-bottom: 1px solid #3a414d;
+}
+
+.experiensa .ui-datepicker td {
+	background: #FFFFFF;
+	/*background: #f97e76;*/
+	border: none;
+	padding: 0;
+	/*border: 1px solid #ddd;*/
+}
+
+.experiensa td .ui-state-default {
+	background: transparent;
+	border: none;
+	text-align: right;
+	padding: .5em;
+	margin: 0;
+	font-weight: normal;
+	color: #000;
+	/*color: #efefef;*/
+	/*font-size: 16px;*/
+	font-size: 0.9em;
+}
+
+.experiensa .ui-state-disabled  {
+	opacity: 1;
+}
+
+.experiensa .ui-state-disabled .ui-state-default {
+	/*color: #fba49e;*/
+	color: #777;
+}
+
+.experiensa td .ui-state-active,
+.experiensa td .ui-state-hover {
+	background: #e61a8d;
+	color: #fff;
+	/*background: #2e3641;*/
+}
+
