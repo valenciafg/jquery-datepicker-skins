@@ -5,22 +5,15 @@
 .experiensa .ui-widget {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 	background: #FFFFFF;
-	/*background: #2e3641;*/
-	border: none;
-	border-radius: 0;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
 }
-
-.experiensa .ui-datepicker.ui-widget.ui-widget-content.ui-corner-all{
-	border: 1px solid rgba(34, 36, 38, 0.15);
-    border-radius: 12px;
+.experiensa .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all{
+	border: 1px solid rgba(34, 36, 38, 0.15) !important;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
 }
 
 .experiensa .ui-datepicker {
 	padding: 0;
-	/*border: 1px solid rgba(34, 36, 38, 0.15);
-    border-radius: 12px;*/
 }
 
 .experiensa .ui-datepicker-header {
@@ -42,7 +35,6 @@
 .experiensa .ui-datepicker .ui-datepicker-title {
 	margin-top: .4em;
 	margin-bottom: .3em;
-	/*color: #e9f0f4;*/
 	color: #000;
 	font-weight: bold;
 }
@@ -83,10 +75,8 @@
 .experiensa .ui-datepicker th {
 	padding: 1em 0;
 	color: #909090;
-	/*color: #ccc;*/
 	font-size: 13px;
 	font-weight: bold;
-	/*font-weight: normal;*/
 	border: none;
 	border-top: 1px solid #3a414d;
 	border-bottom: 1px solid #3a414d;
@@ -94,10 +84,8 @@
 
 .experiensa .ui-datepicker td {
 	background: #FFFFFF;
-	/*background: #f97e76;*/
-	border: none;
+	/*border: none;*/
 	padding: 0;
-	/*border: 1px solid #ddd;*/
 }
 
 .experiensa td .ui-state-default {
@@ -108,8 +96,6 @@
 	margin: 0;
 	font-weight: normal;
 	color: #000;
-	/*color: #efefef;*/
-	/*font-size: 16px;*/
 	font-size: 0.9em;
 }
 
@@ -118,7 +104,6 @@
 }
 
 .experiensa .ui-state-disabled .ui-state-default {
-	/*color: #fba49e;*/
 	color: #777;
 }
 
@@ -126,6 +111,15 @@
 .experiensa td .ui-state-hover {
 	background: #e61a8d;
 	color: #fff;
-	/*background: #2e3641;*/
 }
+
+.experiensa td + td,th + th { border-left: 1px solid #ddd; }
+.experiensa tr + tr { border-top: 1px solid #ddd; }
+/*
+.experiensa tr:last-child td::last-child .ui-datepicker-week-end.ui-datepicker-other-month{
+	background: #000;
+	border: 3px solid #e61a8d;
+	border-bottom-left-radius: 20px;
+	border-radius: 20px;
+}*/
 
