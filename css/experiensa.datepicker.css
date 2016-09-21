@@ -8,12 +8,13 @@
 }
 .experiensa .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all{
 	border: 1px solid rgba(34, 36, 38, 0.15) !important;
-	border-top-left-radius: 12px;
-	border-top-right-radius: 12px;
+	border-radius: 12px 12px 12px 12px;
+-moz-border-radius: 12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
 }
 
 .experiensa .ui-datepicker {
-	padding: 0;
+	padding: 3px;
 }
 
 .experiensa .ui-datepicker-header {
